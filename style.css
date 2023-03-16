@@ -1,0 +1,55 @@
+#cal {
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    align-self: center;
+    height: 1200px;
+
+}
+
+
+.calculator {
+    padding: 60px 40px 60px 40px;
+    background-color: rgb(42, 39, 39);
+}
+
+
+.dissplay {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.dissplay input {
+    padding: 20px;
+    margin: 10px 10px 30px 10px;
+    font-size: 20px;
+}
+
+.buyton {
+    display: flex;
+    justify-content: center;
+}
+
+.buyton button {
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+}
+
+.c button {
+    padding: 20px;
+    background-color: orange;
+    margin: 10px;
+    font-size: 25px;
+}

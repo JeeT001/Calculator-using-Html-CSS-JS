@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/InteractiveWebApp/css/style.css">
+</head>
+<body>
+    
+    
+    <div id="cal">
+        <div class="thank"></div>
+
+<div class="calculator">
+    
+    <div class="dissplay">
+            <input type="text" placeholder="00" class="screen" value=""><br><br>
+            <input type="text" placeholder="00" class="screen2" value=""><br><br>
+            <input type="text" placeholder="Result" class="result" value=""><br><br>
+
+    </div>
+
+            <div class="buyton">
+    <button class="plus" onclick="add()">+</button>
+    
+    <button class="minus" onclick="minus()">-</button>
+
+    <button class="multiply" onclick="multiply()">*</button>
+
+    <button class="divide" onclick="divide()">/</button>
+
+    <button class="remainder" onclick="remainder()">%</button> <br> <br>
+
+    
+
+
+
+
+    </div>
+
+
+    <div class="c">
+    <button class="clear" onclick="clean()">C</button>
+    
+    <button class="exit" onclick="exit()">Exit</button>
+    </div>
+            
+
+    
+
+</div>
+</div>
+<script src="/InteractiveWebApp/javaScript/app.js"></script>
+</body>
+</html>
